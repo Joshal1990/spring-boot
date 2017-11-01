@@ -1,0 +1,7 @@
+com\csv\DemoCsvValidationApplication.class
+com\csv\batch\step\BatchItemReader.class
+com\csv\services\ValidationServices.class
+com\csv\batch\step\BatchItemWriter.class
+com\csv\batch\step\BatchJobCompletionListener.class
+com\csv\batch\step\BatchItemProcessor.class
+com\csv\config\BatchConfig.class

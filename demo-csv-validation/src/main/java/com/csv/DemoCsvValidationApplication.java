@@ -1,0 +1,16 @@
+package com.csv;
+
+import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication(scanBasePackages = "com.csv")
+@EnableBatchProcessing
+@EnableScheduling
+public class DemoCsvValidationApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoCsvValidationApplication.class, args);
+	}
+}
